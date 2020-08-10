@@ -1,6 +1,6 @@
 # -*- mode: python ; coding: utf-8 -*-
 
-# pyinstaller tray.spec --distpath=D:\PythonVENV\mist-app\dist --workpath=D:\PythonVENV\mist-app\build
+# pyinstaller tray.spec --distpath=D:\PythonVENV\TRAY\dist --workpath=D:\PythonVENV\TRAY\build
 
 block_cipher = None
 
@@ -12,7 +12,7 @@ additional_files = [
 ]
 
 a = Analysis(['tray.py'],
-             pathex=['D:\\OneDrive\\Development\\Mist_App'],
+             pathex=['D:\\OneDrive\\Development\\MIST\\APPS\\TRAY'],
              binaries=[],
              datas=additional_files,
              hiddenimports=['win32timezone', 'plyer.platforms.win.notification', 'pkg_resources.py2_warn'],
